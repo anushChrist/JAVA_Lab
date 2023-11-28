@@ -12,7 +12,6 @@ class ShareTrader {
         maxProfit = 0;
         int b1, s1, b2, s2;
         for (int i = 0; i < n; i++) {
-            //Calculating Profit for Each Pair of Buying and Selling Points
             b1 = p[i];
             for (int j = i + 1; j < n; j++) {
                 s1 = p[j];
